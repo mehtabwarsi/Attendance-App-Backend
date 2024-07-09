@@ -41,6 +41,8 @@ app.get("/", async (req, res) => {
   }
 });
 
+console.log("hello world !!!")
+
 app.listen(process.env.PORT, () => {
   console.log(`server is started at:${process.env.PORT}`);
 });
